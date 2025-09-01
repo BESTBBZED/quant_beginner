@@ -6,4 +6,5 @@ export PYTHONPATH="$current_dir:$current_dir/quant_beginner"
 # prompt
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\W\[\033[36m\]$(__git_ps1)\[\033[00m\]\$ '
 
-conda activate base
+# conda activate base
+conda activate py3.13.0
